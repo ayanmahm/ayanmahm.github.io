@@ -83,6 +83,7 @@ a.headl:visited {
 } 
 
 .nass { 
+    font-family: 'Cormorant', Times New Roman, serif;
     text-shadow: white 0px 0px 10px;
     padding-left: 20%;
     padding-right: 20%;
