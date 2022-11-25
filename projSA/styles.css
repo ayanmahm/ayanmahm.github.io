@@ -1,0 +1,106 @@
+@import url(‘https://rsms.me/inter/inter.css’);
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+html {
+  max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'HarmonyOS Sans','Inter var', Arial, sans-serif;
+  background-image: linear-gradient(134deg, #963a2c, #c33f7a);
+  background-blend-mode: darken;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  color: #dadada;
+  padding:3em;
+  padding-left: 2em;
+  min-height: 20vh;
+}
+
+header h1 {
+  font-weight: 900;
+  letter-spacing: -0.075em;
+  line-height: 1.1;
+  padding-left: inherit;
+  font-size: medium;
+  font-family: 'HarmonyOS Sans','Inter var', Arial, sans-serif;
+}
+
+header a {
+  color: inherit; text-decoration: inherit;
+}
+
+
+#content {
+  color:#dadada;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  display:inline-block;
+  font-family: 'Inter', Arial, sans-serif;
+  width: -webkit-fill-available;
+  padding: 3em;
+}
+
+#brand1 {
+  font-size: 3em;
+  font-weight: 800;
+  margin:auto;
+  /* transform:scale(1.2,1);
+  -webkit-transform: scale(1.2,1); */
+  letter-spacing: -0.05em;
+  padding: 1in;
+  display: inline-block;
+}
+
+#inlined {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 1em;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 7em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  header > h1 {
+    text-align: left;
+    font-size: x-large;
+    padding-left: 0;
+    margin:0;
+  }
+
+  header > p {
+    margin: 0;
+  }
+
+  #brand1 {
+    padding: 1em;
+  }
+
+  #inlined {
+    display: inline-block;
+    padding:0;
+  }
+}
