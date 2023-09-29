@@ -23,6 +23,19 @@ body {
     background-image: linear-gradient(to bottom right, #1d0919, #f48fb1);;
 }
 
+/* Style for the centered box */
+.info-box {
+  width: 70%;
+  padding: 20px;
+  color: white;
+  margin:auto;
+  border: 1px solid whitesmoke;
+  border-radius: 2em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ccc;
+}
+
+
 header {
     text-align: left;
     margin: 3em;
