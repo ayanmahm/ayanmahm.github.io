@@ -1,18 +1,9 @@
-<<<<<<< HEAD
 @import url(‘https://ayanmahm.github.io/assets/HarmonyOS%20Sans/importHarmonyOS.css’);
-=======
->>>>>>> 5193314b94aba2e5b4182f3debc468b1f3580cc6
 @import url(‘https://rsms.me/inter/inter.css’);
 :root { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   :root { font-family: 'Inter var', sans-serif; }
 }
-<<<<<<< HEAD
-=======
-@import url(‘https://ayanmahm.github.io/assets/HarmonyOS%20Sans/importHarmonyOS.css’);{
-:root { font-family: 'HarmonyOS Sans', sans-serif; }
-}
->>>>>>> 5193314b94aba2e5b4182f3debc468b1f3580cc6
 
 
 /* Center the box horizontally and vertically */
