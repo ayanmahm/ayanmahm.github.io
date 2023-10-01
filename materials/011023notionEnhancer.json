@@ -1,0 +1,40 @@
+{
+  "36a2ffc9-27ff-480e-84a7-c7700a7d232d": {
+    "panel.pinned": false,
+    "panel.width": 240
+  },
+  "4034a578-7dd3-4633-80c6-f47ac5b7b160": {
+    "cd01a23d-40bd-411b-a6ff-436b9de5c5f7": true,
+    "f875f0b2-a35c-450d-9874-608a78a58ffb": true
+  },
+  "5174a483-c88d-4bf8-a95f-35cd330b76e2": {
+    "tweak.quotation_marks": true,
+    "tweak.spaced_lines": true
+  },
+  "_mods": {
+    "0a958f5a-17c5-48b5-8713-16190cae1959": false,
+    "1794c0bd-7b96-46ad-aa0b-fc4bd76fc7fb": true,
+    "2d1f4809-9581-40dd-9bf3-4239db406483": false,
+    "4034a578-7dd3-4633-80c6-f47ac5b7b160": true,
+    "54f01911-60fc-4c9d-85b5-5c5ca3dd6b81": false,
+    "5a08598d-bfac-4167-9ae8-2bd0e2ef141e": false,
+    "a2401ee1-93ba-4b8c-9781-7f570bf5d71e": true,
+    "b5f43232-391b-415a-9099-4334dc6c7b55": true,
+    "b99deb52-6955-43d2-a53b-a31540cd19a5": true,
+    "d61dc8a7-b195-465b-935f-53eea9efe74e": true,
+    "e0700ce3-a9ae-45f5-92e5-610ded0e348d": true,
+    "e0d8d148-45e7-4d79-8313-e7b2ad8abe16": true,
+    "ec5c4640-68d4-4d25-aefd-62c7e9737cfb": true
+  },
+  "a2401ee1-93ba-4b8c-9781-7f570bf5d71e": {
+    "style": "apple"
+  },
+  "e0700ce3-a9ae-45f5-92e5-610ded0e348d": {
+    "more": false,
+    "share": false
+  },
+  "e0d8d148-45e7-4d79-8313-e7b2ad8abe16": {
+    "headings": "HarmonyOS Sans Condensed",
+    "sans": "HarmonyOS Sans"
+  }
+}
