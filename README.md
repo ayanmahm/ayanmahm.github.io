@@ -1,2 +1,1 @@
-# ayanmahm.github.io
-slay
+Some ideas I want to hang onto
