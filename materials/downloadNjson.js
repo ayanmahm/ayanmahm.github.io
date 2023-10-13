@@ -5,10 +5,10 @@ function downloadFile() {
     var a = document.createElement("a");
     
     // Set the href attribute to the file you want to download
-    a.href = "011023notionEnhancer.json";
+    a.href = "notionEnhancer-gmb.json";
     
     // Set the download attribute with the desired file name
-    a.download = "011023notionEnhancer.json";
+    a.download = "notionEnhancer-gmb.json";
     
     // Trigger a click event on the anchor element to start the download
     a.click();
