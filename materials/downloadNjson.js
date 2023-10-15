@@ -13,3 +13,18 @@ function downloadFile() {
     // Trigger a click event on the anchor element to start the download
     a.click();
 }
+// downloadNjson.js
+
+function downloadFileKCL() {
+    // Create an anchor element
+    var b = document.createElement("b");
+    
+    // Set the href attribute to the file you want to download
+    b.href = "notion-enhancer_KCL.json";
+    
+    // Set the download attribute with the desired file name
+    b.download = "notion-enhancer_KCL.json";
+    
+    // Trigger a click event on the anchor element to start the download
+    b.click();
+}
