@@ -17,7 +17,7 @@ function downloadFile() {
 
 function downloadFileKCL() {
     // Create an anchor element
-    var b = document.createElement("b");
+    var b = document.createElement("a");
     
     // Set the href attribute to the file you want to download
     b.href = "notion-enhancer_KCL.json";
